@@ -1,0 +1,15 @@
+{
+  "name": "api-tests",
+  "version": "1.0.0",
+  "description": "testing Stage Demo",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "api-tests": "newman run tests/SWAPI.postman_collection.json"
+  },
+  "author": "Asset Kussainov",
+  "dependencies": {
+    "newman": "^5.0.0"
+  }
+}
